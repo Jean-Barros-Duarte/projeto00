@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+#img-pessoa-movel{
+    width: 592px;
+    margin: 0 auto 72px;
+}
+
+
+
+#img-pessoa-movel img {
+    margin-bottom: 72px;
+}
+
+
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+
+    margin-bottom: 32px;
+}
+
+
+
+h1 span{
+    font-weight: bold;
+}
+
+
+
+span, a{
+    color: #FF9900;
+}
+
+
+
+p, #rede-social { 
+    color: #7d7987;
+
+    font-size: 14px;
+    line-height: 28px;    
+
+}
+
+
+
+#rede-social{
+margin-bottom: 20px;
+}
+
+
+
+
+#rede-social a + a { /*a+a = pegue o A anterior ao a e de espaço do lado esquerdo de 28px*/ 
+    margin-left:  28px;
+}
+
+#rede-social #line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #eceff2;
+
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
